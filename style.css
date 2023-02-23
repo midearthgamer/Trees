@@ -1,0 +1,86 @@
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+  }
+
+  :root {
+    --color-primary: #545454;
+    --color-secondary: #908f8f;
+  }
+
+  body {
+    background-color: #1c1c1c;
+    color: #fff;
+    font-family: sans-serif;
+  }
+
+  #image3,
+  #image2,
+  #image {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    filter: brightness(80%);
+    transition: filter 0.4s ease-in;
+    padding: 20px;
+    background-color: var(--color-primary);
+    box-shadow: 0 0 0 3px var(--color-secondary);
+    border-radius: 5%;
+    margin: 1.5rem;
+  }
+
+  #image3:hover,
+  #image2:hover,
+  #image:hover {
+    filter: brightness(100%);
+  }
+
+  #text-container3,
+  #text-container2,
+  #text-container {
+    opacity: 0.7;
+    transition: opacity 0.4s ease-in;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: var(--color-primary);
+    box-shadow: 0 0 0 3px var(--color-secondary);
+    border-radius: 1%;
+    box-sizing: border-box;
+    width: 25%; /* Add this property */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+  }
+
+  #text-container3:hover,
+  #text-container2:hover,
+  #text-container:hover {
+    opacity: 1;
+  }
+
+  #content3,
+  #content2,
+  #content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .title3,
+  .title2,
+  .title {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+
+  .description3,
+  .description2,
+  .description {
+    font-size: 18px;
+    margin-top: 0;
+  }
