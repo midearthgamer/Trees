@@ -26,6 +26,13 @@
     box-shadow: 0 0 0 3px var(--color-secondary);
     border-radius: 5%;
     margin: 1.5rem;
+    position: relative;
+    transition: transform 0.2s ease-in-out;
+  }
+
+  #image:hover {
+    transform: scale(1.05);
+    bottom: 0;
   }
 
   #text-container {
@@ -34,29 +41,35 @@
     background-color: var(--color-primary);
     box-shadow: 0 0 0 3px var(--color-secondary);
     border-radius: 1%;
-    box-sizing: border-box;
     width: 25rem; /* Add this property */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 2rem;
+    box-sizing: border-box;
+    position: relative;
+    transition: transform 0.2s ease-in-out;
+  }
+
+  #text-container:hover {
+    transform: scale(1.05);
+    bottom: 0;
   }
 
   #content {
-    filter: brightness(80%);
-    transition: filter 0.2s ease-in;
+    box-sizing: border-box;
+    opacity: 0.8;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    position: relative;
+    transition: opacity 0.2s ease-in;
   }
 
   #content:hover {
-    filter: brightness(100%);
-  }
-
-  #content:hover {
-    opacity: 1;
+    opacity: 0.9;
+    bottom: 0;
   }
 
   .title {
