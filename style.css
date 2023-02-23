@@ -7,12 +7,12 @@
   }
 
   :root {
-    --color-primary: #545454;
-    --color-secondary: #908f8f;
+    --color-primary: #1b222a;
+    --color-secondary: #30363D;
   }
 
   body {
-    background-color: #1c1c1c;
+    background-color: #0D1117;
     color: #fff;
     font-family: sans-serif;
   }
