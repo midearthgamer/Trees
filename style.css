@@ -49,7 +49,7 @@
     box-shadow: 0 0 0 3px var(--color-secondary);
     border-radius: 1%;
     box-sizing: border-box;
-    width: 25%; /* Add this property */
+    width: 25rem; /* Add this property */
     display: flex;
     flex-direction: column;
     justify-content: center;
