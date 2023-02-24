@@ -1,83 +1,109 @@
 #container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 100vh;
-    padding: 20px;
-  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+  margin-bottom: 50px;
+}
 
-  :root {
-    --color-primary: #1b222a;
-    --color-secondary: #30363D;
-  }
+:root {
+  --color-primary: #1b222a;
+  --color-secondary: #30363D;
+}
 
-  body {
-    background-color: #0D1117;
-    color: #fff;
-    font-family: sans-serif;
-  }
+body {
+  background-color: #0D1117;
+  color: #fff;
+  font-family: sans-serif;
+}
 
-  #image {
-    width: 300px;
-    height: 300px;
-    object-fit: cover;
-    padding: 20px;
-    background-color: var(--color-primary);
-    box-shadow: 0 0 0 3px var(--color-secondary);
-    border-radius: 5%;
-    margin: 1.5rem;
-    position: relative;
-    transition: transform 0.2s ease-in-out;
-  }
+#image {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  padding: 20px;
+  background-color: var(--color-primary);
+  box-shadow: 0 0 0 3px var(--color-secondary);
+  border-radius: 5%;
+  margin: 1.5rem;
+  position: relative;
+  transition: transform 0.2s ease-in-out;
+}
 
-  #image:hover {
-    transform: scale(1.05);
-    bottom: 0;
-  }
+#image:hover {
+  transform: scale(1.05);
+  bottom: 0;
+}
 
-  #text-container {
-    margin-top: 20px;
-    padding: 20px;
-    background-color: var(--color-primary);
-    box-shadow: 0 0 0 3px var(--color-secondary);
-    border-radius: 1%;
-    width: 25rem; /* Add this property */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 2rem;
-    box-sizing: border-box;
-    position: relative;
-    transition: transform 0.2s ease-in-out;
-  }
+#text-container {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: var(--color-primary);
+  box-shadow: 0 0 0 3px var(--color-secondary);
+  border-radius: 1%;
+  width: 25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+  box-sizing: border-box;
+  position: relative;
+  transition: transform 0.2s ease-in-out;
+}
 
-  #text-container:hover {
-    transform: scale(1.05);
-    bottom: 0;
-  }
+#text-container:hover {
+  transform: scale(1.05);
+  bottom: 0;
+}
 
-  #content {
-    box-sizing: border-box;
-    opacity: 0.8;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    position: relative;
-    transition: opacity 0.2s ease-in;
-  }
+#content {
+  box-sizing: border-box;
+  opacity: 0.8;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+  transition: opacity 0.2s ease-in;
+}
 
-  #content:hover {
-    opacity: 1;
-    bottom: 0;
-  }
+#content:hover {
+  opacity: 1;
+  bottom: 0;
+}
 
-  .title {
-    font-size: 28px;
-    margin-bottom: 10px;
-  }
+.title {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
 
-  .description {
-    font-size: 18px;
-    margin-top: 0;
-  }
+.description {
+  font-size: 18px;
+  margin-top: 0;
+}
+
+#poem {
+  opacity: 0.8;
+  box-sizing: border-box;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: var(--color-primary);
+  box-shadow: 0 0 0 3px var(--color-secondary);
+  border-radius: 1%;
+  width: 25rem;
+  margin-bottom: 3rem;
+  transition: opacity 0.2s ease-in;
+  margin-top: 20px;
+  font-size: 18px;
+  text-align: center;
+}
+
+#poem:hover {
+  opacity: 1;
+  bottom: 0;
+}
+
+#poem-container {
+  margin-bottom: 3rem;
+}
